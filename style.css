@@ -1,0 +1,382 @@
+html{
+    zoom: 90%;
+}
+code{
+    color: #000;;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+header{
+    margin-top: 5%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    border: 1px solid black;
+    padding-left: 5%;
+    border-radius: 10px;
+}
+
+.colors{
+    margin-top: 2.5%;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-bottom: 5%;
+}
+
+.colors h3{
+    font-size: 2em;
+    padding-left: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+
+}
+
+.block1{
+    display: inline-flex;
+    height: 149px;
+    width: 149px;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 10px;
+}
+.block1 code{
+    width: 90px;
+}
+.block1 button{
+    border: 1px solid black;
+}
+
+.block2{
+    display: inline-flex;
+    height: 149px;
+    width: 149px;
+    margin-left: 5%;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    background-color: #000000;
+    border:1px solid #000000;
+    border-radius: 10px;
+}
+
+.block2 code{
+    color: #ffffff;
+    width: 90px;
+}
+
+.block2 button{
+    border: 1px solid #ffffff;
+}
+
+.block3{
+    display: inline-flex;
+    height: 149px;
+    width: 149px;
+    margin-left: 5%;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    background-color: #969696;
+    border:1px solid #969696;
+    border-radius: 10px;
+}
+
+.block3 code{
+    color: #000000;
+    width: 90px;
+}
+
+.block3 button{
+    border: 1px solid #000000;
+}
+
+
+.block4{
+    display: inline-flex;
+    height: 149px;
+    width: 149px;
+    margin-left: 5%;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    background-color: #e6e6e6;
+    border:1px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+.block4 code{
+    color: #000000;
+    width: 90px;
+}
+
+.block4 button{
+    border: 1px solid #000000;
+}
+
+.block5{
+    display: inline-flex;
+    height: 149px;
+    width: 149px;
+    margin-left: 5%;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    background-color: rgb(161, 0, 255);
+    border:1px solid #a100ff;
+    border-radius: 10px;
+}
+
+.block5 code{
+    color: #000000;
+    width: 90px;
+}
+
+.block5 button{
+    border: 1px solid #000000;
+}
+
+
+.block6{
+    display: inline-flex;
+    height: 149px;
+    width: 149px;
+    margin-left: 5%;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    background-color: #7500c0;
+    border:1px solid #7500c0;
+    border-radius: 10px;
+}
+
+.block6 code{
+    color: #000000;
+    width: 90px;
+}
+
+.block6 button{
+    border: 1px solid #000000;
+}
+
+.block7{
+    display: inline-flex;
+    height: 149px;
+    width: 149px;
+    margin-left: 5%;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    background-color: rgb(70, 0, 115);
+    border:1px solid #460073;
+    border-radius: 10px;
+}
+
+.block7 code{
+    color: #ffffff;
+    width: 90px;
+}
+
+.block7 button{
+    border: 1px solid #ffffff;
+}
+
+.block8{
+    display: inline-flex;
+    height: 149px;
+    width: 149px;
+    margin-left: 5%;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    background-color: #b455aa;
+    border:1px solid #b455aa;
+    border-radius: 10px;
+}
+
+.block8 code{
+    color: #000000;
+    width: 90px;
+}
+
+.block8 button{
+    border: 1px solid #000000;
+}
+
+.block9{
+    display: inline-flex;
+    height: 149px;
+    width: 149px;
+    margin-left: 5%;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    background-color: #be82ff;
+    border:1px solid #be82ff;
+    border-radius: 10px;
+}
+.block9 code{
+    color: #000000;
+    width: 90px;
+}
+
+.block9 button{
+    border: 1px solid #000000;
+}
+
+.block10{
+    display: inline-flex;
+    height: 149px;
+    width: 149px;
+    margin-left: 5%;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    background-color: #dcaaff;
+    border:1px solid #dcaaff;
+    border-radius: 10px;
+}
+
+.block10 code{
+    color: #000000;
+    width: 90px;
+}
+
+.block10 button{
+    border: 1px solid #000000;
+}
+
+.fonts{
+    margin-top: 2.5%;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.fonts h3{
+    font-size: 2em;
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+
+}
+
+.card1{
+    padding: 2.5%;
+    border:1px solid black;
+    border-radius: 10px;
+    font-family: 'arial black';
+    font-size: 1.15rem;
+    display: inline-flex;
+    height: 200px;
+    width: fit-content;
+    align-items: center;
+    justify-content:center;
+}
+
+.card2{
+    padding:2.5%;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-left: 5%;
+    font-family: Arial;
+    font-size: 1.15rem;
+    display: inline-flex;
+    height: 200px;
+    width: 200px;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.text-styles{
+    margin-top: 2.5%;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.text-styles h3{
+    font-size: 2em;
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+
+.text1{
+    
+    padding: 2.5%;
+    font-family: 'arial black';
+    Font-weight: 700;
+    Font-size: 26px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.text2{
+    display: inline-block;
+    margin-left: 2.5%;
+    padding: 2.5%;
+    font-family: 'arial black';
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 223px;
+    width: fit-content;
+}
+
+.text3{
+    display: inline-block;
+    margin-left: 2.5%;
+    padding: 2.5%;
+    font-family: 'arial';
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 223px;
+    width: fit-content;
+}
+
+.purpose{
+    margin-top: 2.5%;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.purpose h3{
+    font-size: 2em;
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+
+.purpose p{
+    display: inline-block;
+    margin-left: 2.5%;
+    padding: 2.5%;
+    font-size: 1.5rem;
+    height: 200px;
+    width: fit-content;
+}
